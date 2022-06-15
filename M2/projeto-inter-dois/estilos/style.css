@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-titulo:'Open Sans';
+    --cor-principal:rgb(114, 194, 248);
+    --cor1:#03258c;
+    --cor2:#044bd9;
+    --cor3:#0583f2;
+    --cor4:#4ba4f2;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: var(--cor4);
+    box-shadow: 0px -3px 10px black;   
+}
+
+header.mobile-versao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: var(--cor4);
+    box-shadow: 0px -3px 10px black;
+    display: none;   
+}
+
+header.mobile-versao-2{
+    display: none;
+}
+
+.foto-descrito{
+    display: flex;
+    align-items: center;
+}
+
+.foto-minha > picture > img{
+    padding: 10px;
+    padding-left:30px;
+}
+
+.informa > h1{
+    font-family: var(--fonte-titulo);
+}
+
+
+.informa{
+    text-align: left;
+}
+
+.informa > h3{
+    padding: 5px;
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+}
+
+
+.contato > h2{
+    text-align: center;
+    font-family: var(--fonte-titulo);
+}
+.logo-contato{
+    display: flex;
+}
+.logo-contato > a{
+    padding: 10px;
+}
+
+.contato{
+    padding-right: 30px;
+}
+
+
+main{
+    margin: auto;
+    padding: 10px;
+}
+
+main > h1{
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    margin-bottom: 10px;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.sites-feitos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sites-feitos > .cartao-site > a{
+    text-decoration: none;
+}
+
+.cartao-site{
+    width: 300px;
+    border: 4px solid #4ba4f2;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.cartao-site > h2{
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    font-size: 30px;
+}
+
+.cartao-site > div > p{
+    font-size: 20px;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cartao-site img{
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cartao-interno{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cartao-site > p{
+    text-align: center;
+}
+
+.descri{
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+}
+
+.botao-dois{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botao-dois .des-js{
+    width: 100px;
+    margin: auto;
+    padding: 9px;
+    border: 4px solid #4ba4f2;
+    border-radius: 13px;
+    transition: 250ms;
+}
+
+.botao-dois .des-js a{
+    transition: 250ms;
+}
+
+.botao-dois .des-js:hover > a{
+    color: white;
+    transition: 250ms;
+}
+.botao-dois .des-js:hover{
+    cursor: pointer;
+    background-color: var(--cor4);
+    color: white;
+    transition: 250ms;
+}
+
+.link-baixa{
+    text-decoration: none;
+    color: black;
+}
+
+footer.mobile-um{
+    display: none;
+    text-align: center;
+    background-color:#4ba4f2;
+    box-shadow: 0px 0px 8px black; 
+}
+footer.mobile-um > h2{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color:#4ba4f2;
+}
+
+footer.mobile-um > .contato{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    background-color:#4ba4f2;
+    padding: 0;
+    padding-bottom: 15px;
+}

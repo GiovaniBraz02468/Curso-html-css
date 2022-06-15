@@ -1,0 +1,310 @@
+@charset "UTF8";
+
+
+
+@font-face{
+    font-family: 'logofonte';
+    src: url("../OMEGLE.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-image: url("../midia/fundo3.jpg"); /* Fundo: a imagem com o URL*/
+    background-attachment: fixed; /* Fundo: fixado, caso tenha texto ou algo na tela que precisa rolar, ele vai fixar a imagem e mexer apenas o texto*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border-radius: 20px;
+    padding: 1%;
+    margin-top: 5px;
+}
+
+table.tabela-topo{
+  padding: 10px;
+}
+
+td.coluna-nome{
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+    font-family: 'logofonte';
+    padding-left: 1%;
+}
+
+td.coluna-logo img{
+    width: 100px;
+}
+
+section.parte-um{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+div video.video-rede{
+    width: 90%;
+    border-radius: 30px 0px 30px 0px;
+}
+
+section.parte-um div.divtexto h1{
+    font-size: 200%;
+    margin-left: 0.5cm;
+}
+
+section.parte-um div.divtexto h2{
+    margin-left: 1cm;
+}
+
+section.parte-um div.divtexto p{
+    text-indent: 1cm;
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+section.parte-um div.divvideo{
+    width: 48%;
+    text-align: center;
+    
+}
+
+section.parte-um div.divtexto{
+    width: 48%;
+    align-items: center;
+}
+
+hr{
+    width: 90%;
+    border: 1px solid black;
+}
+
+div.missão h1.nome-missão{
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+    font-family: 'logofonte';
+    padding-left: 1%;
+}
+
+
+
+
+
+section.parte-dois{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+section.parte-dois div.div-missao{
+    width: 35%;
+    margin-left: 2%;
+    text-align: center;
+    align-items: center;
+}
+section.parte-dois div.div-missao img{
+    width: 80%;
+    align-items: center;
+}
+section.parte-dois div.div-missao-texto{
+    width: 57%;
+}
+section.parte-dois div.div-missao-texto h1{
+    text-indent: 1cm;
+    font-size: 300%;
+}
+
+section.parte-dois div.div-missao-texto p{
+    text-align: justify;
+    font-size: 110%;
+    text-indent: 1cm;
+}
+
+section.parte-tres{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+section.parte-tres div.div-missao{
+    width: 35%;
+    margin-right: 2%;
+    text-align: center;
+    align-items: center;
+}
+section.parte-tres div.div-missao img{
+    width: 80%;
+    align-items: center;
+}
+section.parte-tres div.div-missao-texto{
+    width: 57%;
+}
+section.parte-tres div.div-missao-texto h1{
+    text-indent: 1cm;
+    text-align: right;
+    font-size: 300%;
+}
+
+section.parte-tres div.div-missao-texto p{
+    text-align: justify;
+    font-size: 110%;
+    text-indent: 1cm;
+}
+
+
+
+
+section.mapa{
+    margin-top: 3%;
+}
+
+section.mapa div.div-mapa{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+section.mapa div.div-mapa h1{
+    text-align: center;
+    font-size: 300%;
+    
+}
+
+section.mapa div.div-mapa iframe{
+    height: 350px;
+}
+
+h1.nome{
+    text-align: center;
+    font-size: 300%;
+    margin-bottom: 1px;
+}
+
+section.contato{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around
+}
+
+section.contato div.zapzap{
+    margin: 1%;
+}
+section.contato div.zapzap img{
+    width: 100%;
+}
+section.contato div.faceface{
+    margin: 1%;
+}
+section.contato div.faceface img{
+    width: 100%;
+}
+section.contato div.instainsta{
+    margin: 1%;
+}
+section.contato div.instainsta img{
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    section.parte-um{
+        display: inline;
+    }
+
+    section.parte-um div.divvideo{
+        width: 100%;
+        margin: 0%;
+    }
+    
+    section.parte-um div.divtexto{
+        width: 100%;
+        margin: 0%;
+    }
+    section.parte-um div.divtexto h1{
+        font-size: 300%;
+        text-align: center;
+    }
+    section.parte-um div.divtexto h2{
+        font-size: 250%;
+        margin-left: 5%;
+    }
+    section.parte-um div.divtexto p{
+        font-size: 150%;
+        text-align: justify;
+        text-indent: 1cm;
+    }
+
+    section.parte-um div.divvideo video.video-rede{
+        width: 95%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    section.parte-dois{
+        display: inline;
+    }
+    section.parte-dois div.div-missao{
+    
+        width: 90%;
+        margin: 5%;
+        text-align: center;
+    }
+    section.parte-dois div.div-missao img{
+        width: 50%;
+    }
+    section.parte-dois div.div-missao-texto{
+   
+        width: 90%;
+        margin: 5%;
+    }
+    section.parte-dois div.div-missao-texto h1{
+        text-align: center;
+        margin-left: -8%;
+        font-size: 300%;
+    }
+    
+    section.parte-dois div.div-missao-texto p{
+     
+        font-size: 150%;
+        text-align: justify;
+        text-indent: 1cm;
+    }
+
+
+    section.parte-tres{
+        display: inline;
+    }
+    section.parte-tres div.div-missao{
+    
+        width: 90%;
+        margin: 5%;
+        text-align: center;
+    }
+    section.parte-tres div.div-missao img{
+        width: 50%;
+    }
+    section.parte-tres div.div-missao-texto{
+   
+        width: 90%;
+        margin: 5%;
+    }
+    section.parte-tres div.div-missao-texto h1{
+        text-align: center;
+        margin-left: -8%;
+        font-size: 300%;
+    }
+    section.parte-tres div.div-missao-texto p{
+     
+        font-size: 150%;
+        text-align: justify;
+        text-indent: 1cm;
+    }
+    
+}

@@ -1,0 +1,21 @@
+@media screen and (min-width: 800px){
+    .comandos ol li{
+        padding: 5px;
+    }
+
+    .comandos{
+        padding-top: 0px;
+        width: 70%;
+        margin: auto;
+        transition: 500ms;
+        border-radius: 20px;
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 1px 1px 10px;
+    }
+
+    body{
+        background-color: #00CAFF;
+    }
+}

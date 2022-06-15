@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    text-align: right;
+    margin: 15px;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+nav > a{
+    border: 3px solid rgb(255, 255, 255);
+
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+
+    background-image: url('midia/laranja-roxo-dois.png');
+    background-size: cover;
+
+    color: rgb(255, 255, 255);
+    
+    text-decoration: NONE;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+nav > a:hover{
+    background-image: none;
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-image: url('midia/laranja-roxo.png') 1;
+    color: black;
+    border-radius: 20px;
+    transition: 200ms;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logar{
+    text-align: center;
+}
+
+.logar > picture > img{
+    margin: 10px;
+}
+
+.logar > p{
+    font-size: 14pt;
+}
+
+.campos > form > label > p{
+    font-size: 18pt;
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+
+.campos > form > input{
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-image: url('midia/laranja-roxo.png') 10;
+    font-size: 15pt;
+}
+
+.campos h2{
+    border: 3px solid white;
+    width: 80px;
+    margin: auto;
+    padding: 12px;
+    background-image: url('midia/laranja-roxo-dois.png');
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.campos a{
+    text-decoration: NONE;
+}
+
+.campos h2:hover{
+    background-image: none;
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-image: url('midia/laranja-roxo.png') 10;
+    color: black;
+    border-radius: 20px;
+    
+}

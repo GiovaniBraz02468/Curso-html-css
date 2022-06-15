@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audios</title>
+</head>
+<body>
+    <h1>reproduzindo audio em HTML 5</h1>
+    <audio src="musica/rise.mpeg" loop></audio>
+    <audio preload="metadata" autoplay controls>
+        <source src="musica/rise.mpeg" type="audio/mpeg">
+        <!-- Sempre tenha vários sources, ele vai testar um a um-->
+    </audio>
+</body>
+</html>

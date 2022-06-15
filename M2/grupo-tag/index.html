@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo de tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: gray;
+        }
+        header{
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+            border: 5px solid black;
+            border-image-source: url('Novo\ Projeto.png');
+            border-image-slice: 1;
+            transition: 250ms;
+
+            border-image:  url('Novo\ Projeto.png') 1;
+            
+        }
+        main:hover{
+            
+            border: 5px solid black;
+            border-image-source: url('Novo\ Projeto (1).jpg');
+            border-image-slice: 1;
+            transition: 250ms;
+            
+        }
+        footer{
+            background-color: aqua;
+        }
+        nav{
+            background-color: gray;
+            padding: 10px;
+        }
+        a{
+            margin: 5px;
+        }
+
+        #bola{
+            width: 50px;
+            height: 50px;
+            background-color: aqua;
+            border-radius: 50%;
+            background-image: url('Novo\ Projeto.png');
+            transition: 800ms;
+        }
+
+        #bola:hover{
+            background-image: url('Novo\ Projeto (1).jpg');
+            transition: 800ms;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cabeçalho</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Principal</h1>
+        <section>
+            <p>assunto</p>
+        </section>
+        <section>
+            <p>noticias</p>
+            <article>
+                <p>artigo</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvilvido pela sua mãe kkkkkkk</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
